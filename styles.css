@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+.infromacion__usuario div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 380px;
+}
