@@ -10,32 +10,22 @@
 </head>
 
 <body>
-    <h1>Bienvenido!</h1>
+    <h1 id="tituloPagina">Bienvenido!</h1>
+    <h2 id="tituloDatosUsuario" class="oculto">Datos usuario</h2>
+    <p id='parrafoDatosUsuario' class="oculto"></p>
 
     <form action="" class="infromacion__usuario">
         <div>
-            <label for="primerNombreUsuario">
+            <label for="nombreUsuario">
                 Primer nombre
             </label>
-            <input type="text" id="primerNombreUsuario">
+            <input type="text" id="nombreUsuario">
         </div>
         <div>
-            <label for="segundoNombreUsuario">
-                Segundo nombre
-            </label>
-            <input type="text" id="segundoNombreUsuario">
-        </div>
-        <div>
-            <label for="primerApellidoUsuario">
+            <label for="apellidoUsuario">
                 Primer apellido
             </label>
-            <input type="text" id="primerApellidoUsuario">
-        </div>
-        <div>
-            <label for="segundoApellidoUsuario">
-                Segundo apellido
-            </label>
-            <input type="text" id="segundoApellidoUsuario">
+            <input type="text" id="apellidoUsuario">
         </div>
         <div>
             <label for="edadUsuario">
@@ -43,7 +33,7 @@
             </label>
             <input type="text" id="edadUsuario">
         </div>
-        <input type="button" value="Confirmar">
+        <input type="button" value="Confirmar" id='botonConfirmar'>
     </form>
 
     <script src="scripts.js"></script>
